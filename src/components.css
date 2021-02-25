@@ -92,7 +92,7 @@
   @apply list-none p-0;
 
   li {
-    @apply inline rounded-full bg-blue-happy px-2 py-1 text-xs mr-3;
+    @apply inline rounded-full px-2 py-1 text-xs mr-3;
   }
 
   li a {

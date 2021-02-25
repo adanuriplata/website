@@ -1,7 +1,7 @@
 {
-  "name": "xt-tailwindcss-starter",
+  "name": "distordev-web-site",
   "version": "4.0.0",
-  "description": "A Tailwind CSS Starter. Based on Tailwind CSS, Webpack, PostCSS, cssnano and purgecss. Fully optimized for top performance.",
+  "description": "Sitio web de Adan Uri Plata Estrada",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server",
     "serve": "cross-env NODE_ENV=development webpack-dev-server",
@@ -11,12 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:anibalsanchez/XT-TailwindCSS-Starter.git"
+    "url": "https://github.com/adanuriplata/website.git"
   },
   "keywords": [
     "Tailwind, CSS, Webpack, PostCSS, cssnano, purgecss"
   ],
-  "author": "Extly CB",
+  "author": "Adan Uri Plata",
   "license": "GPL-3.0-or-later",
   "dependencies": {
     "@tailwindcss/aspect-ratio": "^0.2.0",

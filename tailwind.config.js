@@ -30,7 +30,10 @@ module.exports = {
       },
       colors: {
         // My Colors
-        'blue-happy': '#2d6987',
+        'bg-ddev': '#0D0A1C',
+        'green-ddev': '#0EF9FC',
+        'white-ddev': '#8892b0',
+        'white-l-ddev': '#ccd6f6',
         extly: '#ff8900',
         'grey-dark': '#0d0d0d',
         'grey-light': '#f5f5f5',
@@ -44,9 +47,12 @@ module.exports = {
         '32-lite': '7rem',
       },
       fontFamily: {
+        mono: [
+          '"Fira Mono"',
+        ],
         sans: [
-          'muli',
-          '"Helvetica Neue"',
+          'Montserrat',
+          'DotGothic16',
           'Arial',
           'sans-serif',
 
