@@ -136,3 +136,14 @@
     @apply text-link no-underline;
   }
 }
+
+.ddev-hover-button{
+  transition: 0.7s;
+}
+
+.ddev-hover-button:hover {
+  @apply bg-green-ddev;
+  color: #111; 
+  color: #020202; 
+  box-shadow: 0 0 50px #0EF9FC; 
+}
