@@ -143,7 +143,42 @@
 
 .ddev-hover-button:hover {
   @apply bg-green-ddev;
-  color: #111; 
   color: #020202; 
   box-shadow: 0 0 50px #0EF9FC; 
 }
+
+
+
+.ddev-hover-project {
+  transition: 0.7s;
+}
+
+
+.ddev-hover-project:hover {
+  @apply bg-green-ddev;
+  @apply text-green-ddev;
+  box-shadow: 0 0 50px #0EF9FC; 
+}
+
+
+/*Para los SVG venia en la libreria de iconos*/
+.svg-icon {
+  width: 2em;
+  height: 2em;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: rgba(136, 146, 176, 0.5);
+}
+
+svg:hover {
+  fill: red;
+}
+
+
+/* .svg-icon circle {
+  stroke: #4691f6;
+  stroke-width: 1;
+} */
