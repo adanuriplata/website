@@ -1,78 +1,59 @@
-# Tailwind CSS Webpack Starter Project
+# 11TA - 11ty, TailwindCSS, & Alpine.js Template
+https://github.com/11ta/11ta-template
 
-A Tailwind CSS Starter. Based on Tailwind CSS, Webpack, PostCSS, cssnano and purgecss. Fully optimized for top performance.
+another option
 
-- [Tailwind CSS](https://tailwindcss.com) - The Utility-First CSS Framework. A project by Adam Wathan (@adamwathan), Jonathan Reinink (@reinink), David Hemphill (@davidhemphill) and Steve Schoger (@steveschoger).
-- [Webpack](https://webpack.js.org/)
-- [PostCSS](https://postcss.org/)
-- [cssnano](https://cssnano.co/)
-- [Purgecss](https://www.purgecss.com)
+https://github.com/dafiulh/vredeburg
 
-For future reference:
 
-- [Tailwind CSS has arrived at the Joomla scene](https://blog.anibalhsanchez.com/en/10-blogging/lost-and-found/47-tailwind-css-has-arrived-at-the-joomla-scene.html)
-- [anibalsanchez/XT-Tailwind-for-Joomla](https://github.com/anibalsanchez/XT-Tailwind-for-Joomla)
+> **UPDATE v2.0.0 - Breaking Changes**
+> In order to provide scalability and cleaner frontmatter controls in current Posts _(and upcoming Products)_ collections, the Frontmatter keys were updated which required updates to `/src/_includes/components/*.njk`, `tailwind.config.js`, and other templates.
+> I apologize for the inconvenience.
 
-**Prerequisites**: Before you use this starter, you must install [Node.js](https://nodejs.org/).
+I set out to build a starter project template for 11ty that has TailwindCSS and Alpine.js baked in.
 
-To get started, clone the project (or download the ZIP file) and install the dependencies:
+Version 1.0.0 morphed into a deeply customizable, full featured, text-based CMS for managing small websites with easy-to-manage configuration files in the `/src/_data/` directory.
 
-```
-# Using npm
-npm install
-```
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e6eb38e1-d081-46ea-a4f6-4d3d36ab7036/deploy-status)](https://app.netlify.com/sites/11ta/deploys)
 
-After that, start up Webpack Development Server:
+![Lighthouse Performance](lighthouse/lighthouse_performance.svg) ![Lighthouse Accessibility](lighthouse/lighthouse_accessibility.svg) ![Lighthouse Best Practices](lighthouse/lighthouse_best-practices.svg) ![Lighthouse SEO](lighthouse/lighthouse_seo.svg)
 
-```
-npm run dev
-```
+---
 
-The page is rendered here <http://localhost:8080/>.
+## Live Demo
 
-Webpack Development Server will watch `/src/styles.css` and `/tailwind.js` and rebuild your stylesheet on every change. You can play around with `/src/index.html` to see the effects of your changes.
+**The [live demo at "11ta.netlify.app"](https://11ta.netlify.app) provides a feature list, and the evolving blog posts each highlight and provide examples of different features, shortcodes, customizations, and frontmatter controls.**
 
-The sample page renders [my blog](https://blog.anibalhsanchez.com) layout redesigned with Tailwind ;-)
+## :fire: Credit :fire:
 
-To build a production bundle run:
+First and foremost, I want to credit the [11ty](https://11ty.dev) community, especially those listed in the [starter projects](https://www.11ty.dev/docs/starter/)!
 
-```
-npm run prod
-```
+Specifically, the following starter projects helped me understand the power and flexibility of 11ty and from their examples I was able to extend the functionality to build this system:
 
-After that you will have a ready to deploy bundle at `/dist`
+- :fire: [eleventy-base-blog](https://github.com/11ty/eleventy-base-blog) by [Zach Leatherman](https://twitter.com/zachleat)
+- :fire: [eastslopestudio-eleventy-starter](https://github.com/eastslopestudio/eleventy-starter) by [Ryan Scherler](https://twitter.com/ryanscherler)
+- :fire: [eleventyone](https://github.com/philhawksworth/eleventyone) by [Phil Hawksworth](https://twitter.com/philhawksworth)
+- :fire: [eleventy-tailwind-alpinejs-starter](https://github.com/gregwolanski/eleventy-tailwindcss-alpinejs-starter) by [Greg Wolanski](https://gregwolanski.com/)
+- :fire: [jet](https://github.com/marcamos/jet) by [Marc Amos](https://twitter.com/marcamos)
 
-## Changelog
+## Deploy and Host at Netlify Automatically
 
-### 4.0.0
+To automatically deploy this Template to [Netlify for free hosting](https://www.netlify.com/pricing/), make sure you're logged in to your Netlify account and then simply click the <kbd>Deploy to netlify</kbd> button below.
 
-- Update to Tailwind CSS v2.0.2
-- Clean dependencies to have Tailwind CSS and WebPack
-- Purge with Tailwind CSS
-- Remove @fullhuman/postcss-purgecss
-- Remove @tailwindcss/custom-forms
-- Integrate @tailwindcss/aspect-ratio
-- Integrate @tailwindcss/forms
-- Integrate @tailwindcss/line-clamp
-- Usability improvements, optimizations and code styling
+<a href="https://app.netlify.com/start/deploy?repository=https://github.com/11ta/11ta-template"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a>
 
-### 3.0.0
+## Install and Deploy Manually
 
-Update to Tailwind CSS v1.2.0, including Tailwind UI support.
+- Duplicate this repository by clicking <kbd>Use this template</kbd> above
+- Clone the repository locally
+- Run `npm install` to install dependencies
+- `npm run dev` to work locally
 
-- Tailwind CSS v1.2.0
-- Support of [Tailwind UI](https://tailwindui.com/)
-- Addition of PostCSS best practices, [postcss-import](https://www.npmjs.com/package/postcss-import) and [postcss-nested](https://www.npmjs.com/package/postcss-nested)
-- Minimum tailwind.config.js
+## Planned
 
-## Contributing
-
-Have a lot of experience with Webpack and suggestions on how we could improve this starter template? We'd love a PR!
-
-This starter is based on the original project created by Adam Wathan here: <https://github.com/tailwindcss/webpack-starter>.
-
-## Copyright & License
-
-- Copyright (c)2012-2021 Extly, CB. All rights reserved.
-- Distributed under the GNU General Public License version 3 or later; see LICENSE
-- This project is dedicated to [Andrea Gentil](http://www.twitter.com/andreagentil) ;-D
+- Search
+- More Structural controls for Index Page
+- Easy add Collections: Projects, Services, Jobs, etc.
+- "Themed" versions for Portfolios/Creatives, Agencies, Digital Gardens, etc.
+- Fully documented migration of Wordpress to 11ty
+- [Snipcart](https://snipcart.com/) integration
